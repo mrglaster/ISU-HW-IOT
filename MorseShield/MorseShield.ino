@@ -1,4 +1,4 @@
-// THIS IS A SENDER BOARD
+// THIS IS A SENDER BOARD (The same firmware can be also used for receiver, the mode depends on switch)
 
 #define PIN_LATCH 8
 #define PIN_CLK 12
