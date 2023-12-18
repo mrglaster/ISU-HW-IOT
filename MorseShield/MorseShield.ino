@@ -1,5 +1,6 @@
 // THIS IS A SENDER BOARD (The same firmware can be also used for receiver, the mode depends on switch)
 
+
 #define PIN_LATCH 8
 #define PIN_CLK 12
 #define PIN_DATA 11
@@ -166,8 +167,7 @@ void loop() {
   if (mode == MODE_RECEIVER) {
     receiveMorse();
   } else {
-    transmitWord(".-");
-    delay(7 * timeUnitMs);
+    transmitMorse("SOS TEST 12345");
   }
 }
 
